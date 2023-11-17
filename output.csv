@@ -1,144 +1,146 @@
 ,edge_1,edge_2,geneset,similarity
-0,propranolol,pindolol,"['ADRB1', 'ADRB2']",0.6904761904761905
-1,paclitaxel,docetaxel,"['PIK3CA', 'GSTM1', 'TUBB3', 'ABCC1', 'KRAS', 'NOTCH1', 'SOX10', 'ERBB2', 'TUBB8', 'GSTP1', 'TUBB6', 'TUBB', 'SLCO1B1', 'CYP19A1', 'ABCC2', 'RAF1', 'TUBA1C', 'CYP1B1', 'ABCG2', 'NAT2', 'SLCO1B3', 'TP53', 'TLE3', 'PGP', 'ABCB1', 'TUBA3E', 'ERCC1', 'NR1I2', 'CYP3A5', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'BCL2', 'TUBB4B', 'MAP3K1', 'BIRC5', 'CASP7', 'TUBA3D', 'TUBB2B', 'ACSS2', 'EGFR', 'RRM1', 'TUBA4A', 'ERCC2', 'TUBB1', 'OPRM1']",0.8255813953488372
-2,sorafenib,regorafenib,"['PIK3CA', 'KIT', 'FLT1', 'ABL1', 'YES1', 'KRAS', 'FLT4', 'FGFR1', 'RAF1', 'MAPK11', 'EPHA2', 'DDR2', 'RET', 'PDGFRB', 'NTRK1', 'EGFR', 'PDGFRA', 'VEGFA', 'BRAF', 'KDR', 'NRAS', 'ARAF']",0.8245614035087719
+0,propranolol,pindolol,"['ADRB2', 'ADRB1']",0.6904761904761905
+1,paclitaxel,docetaxel,"['ERCC1', 'TUBB8', 'CYP19A1', 'BIRC5', 'PIK3CA', 'TLE3', 'TUBA1C', 'TUBB2B', 'ERBB2', 'TUBA3E', 'CYP3A5', 'GSTP1', 'TUBB3', 'TP53', 'GSTM1', 'NAT2', 'ACSS2', 'TUBA3D', 'SOX10', 'ABCB1', 'OPRM1', 'TUBB1', 'TUBA1A', 'TUBB4B', 'TUBA1B', 'ERCC2', 'EGFR', 'TUBB', 'PGP', 'CYP1B1', 'RRM1', 'TUBA4A', 'RAF1', 'ABCC2', 'SLCO1B3', 'TUBB6', 'ABCC1', 'NR1I2', 'NOTCH1', 'MAP3K1', 'KRAS', 'BCL2', 'TUBB2A', 'ABCG2', 'CASP7', 'SLCO1B1']",0.8255813953488372
+2,sorafenib,regorafenib,"['KDR', 'ABL1', 'FLT1', 'MAPK11', 'PIK3CA', 'PDGFRA', 'NRAS', 'FGFR1', 'DDR2', 'NTRK1', 'FLT4', 'YES1', 'ARAF', 'KIT', 'EPHA2', 'EGFR', 'VEGFA', 'PDGFRB', 'RET', 'RAF1', 'KRAS', 'BRAF']",0.8245614035087719
 3,diclofenac,aceclofenac,['CYP2C9'],0.75
-4,haloperidol,bromperidol,"['CYP2D6', 'ABCB1', 'CYP3A4', 'DRD2']",0.8409090909090909
-5,quinidine,quinine,"['SLC29A4', 'CYP2D6', 'ABCB1', 'CYP3A4', 'CYP3A7']",0.7636363636363637
-6,azithromycin,erythromycin,"['ABCC1', 'CYP2D6', 'CYP1A2', 'CYP3A4', 'CYP2C9', 'MLNR', 'CYP2C19', 'XDH']",0.7972972972972973
-7,epirubicin,doxorubicin,"['SLCO1B1', 'CYP19A1', 'TOP2B', 'BCL2', 'CBR3', 'ABCB1', 'TOP2A', 'CYP1B1', 'NOS3', 'ERBB2', 'NOS1', 'GSTP1', 'TP53', 'BIRC5']",0.9076923076923076
-8,palbociclib,ribociclib,"['SMARCA4', 'PIK3CA', 'RB1', 'CDK4', 'ESR1', 'CCND1', 'CCND3', 'ESR2', 'BRAF', 'NRAS', 'CDK6', 'CDKN2A', 'PGR', 'ERBB2']",0.6666666666666666
+4,haloperidol,bromperidol,"['CYP3A4', 'ABCB1', 'CYP2D6', 'DRD2']",0.8409090909090909
+5,quinidine,quinine,"['CYP3A7', 'CYP3A4', 'ABCB1', 'CYP2D6', 'SLC29A4']",0.7636363636363637
+6,azithromycin,erythromycin,"['ABCC1', 'CYP1A2', 'CYP3A4', 'XDH', 'CYP2C9', 'MLNR', 'CYP2D6', 'CYP2C19']",0.7972972972972973
+7,epirubicin,doxorubicin,"['TP53', 'NOS1', 'CBR3', 'TOP2A', 'CYP19A1', 'BIRC5', 'TOP2B', 'BCL2', 'CYP1B1', 'ERBB2', 'ABCB1', 'NOS3', 'GSTP1', 'SLCO1B1']",0.9076923076923076
+8,palbociclib,ribociclib,"['SMARCA4', 'CCND1', 'NRAS', 'CCND3', 'ESR2', 'ESR1', 'CDK6', 'RB1', 'PIK3CA', 'CDK4', 'CDKN2A', 'ERBB2', 'PGR', 'BRAF']",0.6666666666666666
 9,olmesartan,losartan,['AGTR1'],0.6
-10,vinorelbine,vinflunine,"['TUBA3D', 'TUBB2B', 'TUBB3', 'TUBA1C', 'TUBA3E', 'TUBA4A', 'TUBA1A', 'TUBB1', 'TUBB2A', 'TUBA1B', 'TUBB8', 'TUBB6', 'TUBB4B', 'TUBB']",0.8202247191011236
-11,dexamethasone,betamethasone,"['ANXA1', 'AR', 'NFE2L2', 'NR3C1']",0.8545454545454545
+10,vinorelbine,vinflunine,"['TUBB3', 'TUBB6', 'TUBB8', 'TUBB1', 'TUBA1A', 'TUBB4B', 'TUBA1B', 'TUBB', 'TUBA1C', 'TUBA3D', 'TUBB2B', 'TUBA4A', 'TUBB2A', 'TUBA3E']",0.8202247191011236
+11,dexamethasone,betamethasone,"['ANXA1', 'NR3C1', 'NFE2L2', 'AR']",0.8545454545454545
 12,flunarizine,cinnarizine,['HRH1'],0.8055555555555556
 13,epinephrine,racepinephrine,"['DRD1', 'POLK', 'MAPT']",0.7586206896551724
-14,esomeprazole,omeprazole,"['CYP2D6', 'CYP1A2', 'CYP3A5', 'CYP3A4', 'CYP2C9', 'ATP4A', 'CYP2C19']",0.851063829787234
+14,esomeprazole,omeprazole,"['CYP1A2', 'CYP3A4', 'CYP2C9', 'CYP2D6', 'CYP2C19', 'CYP3A5', 'ATP4A']",0.851063829787234
 15,methotrexate,pralatrexate,['DHFR'],0.6666666666666666
-16,thalidomide,pomalidomide,"['RBX1', 'CUL4A', 'DDB1', 'CRBN']",0.7368421052631579
-17,gemcitabine,cytarabine,"['RRM2B', 'NT5C2', 'DCK', 'CDA', 'RRM1', 'RRM2', 'NT5C3A', 'TP53']",0.6444444444444445
-18,tacrolimus,pimecrolimus,"['PPP3CA', 'FKBP1A']",0.8292682926829268
-19,nifedipine,nisoldipine,"['CACNA1F', 'CACNA1S', 'VDR', 'CYP2D6', 'CYP1A2', 'AR', 'CACNA1C', 'CYP2C9', 'CYP3A4', 'EHMT2', 'CACNA1D', 'NFE2L2', 'CYP2C19', 'GMNN']",0.8095238095238095
-20,imipramine,clomipramine,"['SLC6A2', 'CYP2D6', 'SLC6A4', 'DRD1', 'CYP1A2', 'CYP3A4']",0.7567567567567568
-21,theophylline,aminophylline,"['PDE3A', 'ADORA3', 'PDE4B', 'PDE3B', 'PDE4C', 'PDE4A', 'ADORA1', 'ADORA2A', 'PDE4D', 'ADORA2B']",0.8387096774193549
-22,etoposide,teniposide,"['TOP2B', 'ABCC1', 'ABCB1', 'TOP2A', 'BCL2']",0.7945205479452054
+16,thalidomide,pomalidomide,"['CRBN', 'CUL4A', 'DDB1', 'RBX1']",0.7368421052631579
+17,gemcitabine,cytarabine,"['TP53', 'CDA', 'DCK', 'RRM2B', 'NT5C3A', 'RRM2', 'RRM1', 'NT5C2']",0.6444444444444445
+18,tacrolimus,pimecrolimus,"['FKBP1A', 'PPP3CA']",0.8292682926829268
+19,nifedipine,nisoldipine,"['CACNA1D', 'NFE2L2', 'CYP1A2', 'VDR', 'GMNN', 'CACNA1F', 'AR', 'EHMT2', 'CACNA1C', 'CYP3A4', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CACNA1S']",0.8095238095238095
+20,imipramine,clomipramine,"['DRD1', 'CYP1A2', 'CYP3A4', 'SLC6A4', 'CYP2D6', 'SLC6A2']",0.7567567567567568
+21,theophylline,aminophylline,"['PDE4B', 'ADORA1', 'PDE3A', 'ADORA3', 'ADORA2A', 'PDE3B', 'PDE4C', 'PDE4A', 'PDE4D', 'ADORA2B']",0.8387096774193549
+22,etoposide,teniposide,"['ABCC1', 'TOP2A', 'TOP2B', 'BCL2', 'ABCB1']",0.7945205479452054
 23,fenofibrate,fenofibric acid,['PPARA'],0.6666666666666666
-24,erythromycin,clarithromycin,"['CYP2D6', 'ABCB1', 'CYP1A2', 'CYP3A5', 'CYP3A4', 'CYP2C9', 'F2RL1', 'CYP2C19', 'XDH']",0.9242424242424242
+24,erythromycin,clarithromycin,"['CYP1A2', 'CYP2D6', 'CYP3A4', 'XDH', 'CYP2C9', 'ABCB1', 'CYP2C19', 'CYP3A5', 'F2RL1']",0.9242424242424242
 25,artesunate,artemether,['CYP2A6'],0.7021276595744681
-26,docetaxel,paclitaxel,"['PIK3CA', 'GSTM1', 'TUBB3', 'ABCC1', 'KRAS', 'NOTCH1', 'SOX10', 'ERBB2', 'TUBB8', 'GSTP1', 'TUBB6', 'TUBB', 'SLCO1B1', 'CYP19A1', 'ABCC2', 'RAF1', 'TUBA1C', 'CYP1B1', 'ABCG2', 'NAT2', 'SLCO1B3', 'TP53', 'TLE3', 'PGP', 'ABCB1', 'TUBA3E', 'ERCC1', 'NR1I2', 'CYP3A5', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'BCL2', 'TUBB4B', 'MAP3K1', 'BIRC5', 'CASP7', 'TUBA3D', 'TUBB2B', 'ACSS2', 'EGFR', 'RRM1', 'TUBA4A', 'ERCC2', 'TUBB1', 'OPRM1']",0.8255813953488372
-27,everolimus,sirolimus,"['TSC1', 'PIK3CA', 'AKT1', 'RB1', 'HRAS', 'MTOR', 'ABCB1', 'STK11', 'EGFR', 'AR', 'KRAS', 'FLCN', 'CYP3A5', 'ERBB2', 'FKBP1A']",0.9072164948453608
+26,docetaxel,paclitaxel,"['ERCC1', 'TUBB8', 'CYP19A1', 'BIRC5', 'PIK3CA', 'TLE3', 'TUBA1C', 'TUBB2B', 'ERBB2', 'TUBA3E', 'CYP3A5', 'GSTP1', 'TUBB3', 'TP53', 'GSTM1', 'NAT2', 'ACSS2', 'TUBA3D', 'SOX10', 'ABCB1', 'OPRM1', 'TUBB1', 'TUBA1A', 'TUBB4B', 'TUBA1B', 'ERCC2', 'EGFR', 'TUBB', 'PGP', 'CYP1B1', 'RRM1', 'TUBA4A', 'RAF1', 'ABCC2', 'SLCO1B3', 'TUBB6', 'ABCC1', 'NR1I2', 'NOTCH1', 'MAP3K1', 'KRAS', 'BCL2', 'TUBB2A', 'ABCG2', 'CASP7', 'SLCO1B1']",0.8255813953488372
+27,everolimus,sirolimus,"['HRAS', 'AKT1', 'MTOR', 'AR', 'TSC1', 'PIK3CA', 'RB1', 'EGFR', 'KRAS', 'FKBP1A', 'FLCN', 'STK11', 'ERBB2', 'ABCB1', 'CYP3A5']",0.9072164948453608
 28,ropivacaine,bupivacaine,"['SCN10A', 'SCN5A']",0.7272727272727273
 29,ropivacaine,levobupivacaine,['SCN10A'],0.875
-30,azacitidine,decitabine,"['ASXL1', 'DNMT3A', 'DNMT1', 'TET2', 'GSTP1', 'IDH1', 'GMNN']",0.7317073170731707
-31,doxorubicin,epirubicin,"['SLCO1B1', 'CYP19A1', 'TOP2B', 'BCL2', 'CBR3', 'ABCB1', 'TOP2A', 'CYP1B1', 'NOS3', 'ERBB2', 'NOS1', 'GSTP1', 'TP53', 'BIRC5']",0.9076923076923076
-32,decitabine,azacitidine,"['ASXL1', 'DNMT3A', 'DNMT1', 'TET2', 'GSTP1', 'IDH1', 'GMNN']",0.7317073170731707
+30,azacitidine,decitabine,"['DNMT3A', 'TET2', 'DNMT1', 'GMNN', 'IDH1', 'GSTP1', 'ASXL1']",0.7317073170731707
+31,doxorubicin,epirubicin,"['TP53', 'NOS1', 'CBR3', 'TOP2A', 'CYP19A1', 'BIRC5', 'TOP2B', 'BCL2', 'CYP1B1', 'ERBB2', 'ABCB1', 'NOS3', 'GSTP1', 'SLCO1B1']",0.9076923076923076
+32,decitabine,azacitidine,"['DNMT3A', 'TET2', 'DNMT1', 'GMNN', 'IDH1', 'GSTP1', 'ASXL1']",0.7317073170731707
 33,hydroxyzine,cetirizine,['HRH1'],0.7555555555555555
 34,hydroxyzine,levocetirizine,['HRH1'],0.6122448979591837
 35,bupivacaine,levobupivacaine,['SCN10A'],0.8372093023255814
 36,formoterol,arformoterol,"['CYP2D6', 'ADRB2']",0.78
-37,simvastatin,lovastatin,"['HMGCR', 'UGT1A1', 'APOA5', 'CYP2C9', 'CYP2C19', 'ABCC2', 'UGT1A3', 'UGT2B7', 'SLCO2B1', 'CETP', 'IDH1', 'SLCO1B3', 'PIK3CG', 'ABCB1', 'CYP1A2', 'NR1I2', 'CYP3A5', 'CYP2D6', 'THBS1', 'CYP3A4', 'CYP2C8']",0.7894736842105263
-38,rabeprazole,omeprazole,"['ATP4B', 'MAPT', 'VDR', 'HEXB', 'TNF', 'IL1B', 'EHMT2', 'ATP4A', 'CYP2C19']",0.5084745762711864
-39,rabeprazole,lansoprazole,"['ATP4B', 'MAPT', 'VDR', 'IL1B', 'EHMT2', 'ATP4A', 'CYP2C19']",0.7843137254901961
-40,doxorubicin,daunorubicin,"['TOP2B', 'ABCC1', 'CBR3', 'LINC00251', 'G6PD', 'CYP1A1', 'GSTP1', 'SETD4', 'SLCO1B1', 'GATA3', 'RUNX1', 'DOK5', 'SLC28A3', 'UGT1A6', 'TOP1', 'NOS3', 'POLK', 'BMP7', 'ABCG2', 'TP53', 'RPSA', 'CBR1', 'ABCB1', 'AKR7A2', 'AKR1C3', 'APEX1', 'TOP2A', 'RARG']",0.8615384615384616
-41,propranolol,oxprenolol,"['ADRB1', 'ADRB2']",0.675
-42,paclitaxel,cabazitaxel,"['TUBA3D', 'TUBB2B', 'TUBB3', 'TUBB8', 'TUBA1C', 'TUBA3E', 'TUBA4A', 'TUBB1', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'CYP3A4', 'TUBB6', 'TUBB4B', 'TUBB']",0.7692307692307693
+37,simvastatin,lovastatin,"['UGT2B7', 'CYP2C9', 'CYP2C19', 'CYP3A5', 'ABCB1', 'HMGCR', 'CETP', 'SLCO2B1', 'IDH1', 'CYP3A4', 'SLCO1B3', 'ABCC2', 'CYP2C8', 'CYP1A2', 'NR1I2', 'UGT1A3', 'THBS1', 'PIK3CG', 'APOA5', 'UGT1A1', 'CYP2D6']",0.7894736842105263
+38,rabeprazole,omeprazole,"['ATP4B', 'MAPT', 'VDR', 'TNF', 'EHMT2', 'IL1B', 'HEXB', 'CYP2C19', 'ATP4A']",0.5084745762711864
+39,rabeprazole,lansoprazole,"['ATP4B', 'MAPT', 'VDR', 'EHMT2', 'IL1B', 'CYP2C19', 'ATP4A']",0.7843137254901961
+40,doxorubicin,daunorubicin,"['CBR3', 'TOP2A', 'G6PD', 'GATA3', 'RARG', 'TOP1', 'GSTP1', 'TP53', 'BMP7', 'UGT1A6', 'SETD4', 'POLK', 'AKR7A2', 'ABCB1', 'CBR1', 'RUNX1', 'NOS3', 'SLC28A3', 'DOK5', 'ABCC1', 'AKR1C3', 'RPSA', 'APEX1', 'TOP2B', 'CYP1A1', 'ABCG2', 'LINC00251', 'SLCO1B1']",0.8615384615384616
+41,propranolol,oxprenolol,"['ADRB2', 'ADRB1']",0.675
+42,paclitaxel,cabazitaxel,"['TUBB3', 'TUBB6', 'TUBB8', 'TUBB1', 'TUBA1A', 'TUBB4B', 'TUBA1B', 'TUBB', 'TUBA1C', 'TUBA3D', 'CYP3A4', 'TUBB2B', 'TUBA4A', 'TUBB2A', 'TUBA3E']",0.7692307692307693
 43,valganciclovir,ganciclovir,['ABCC4'],0.7450980392156863
 44,estramustine,estramustine phosphate,['AR'],0.7966101694915254
-45,naloxone,oxymorphone,"['OPRM1', 'OPRD1']",0.7818181818181819
+45,naloxone,oxymorphone,"['OPRD1', 'OPRM1']",0.7818181818181819
 46,abiraterone,prasterone,['AR'],0.5454545454545454
 47,raloxifene,arzoxifene,"['ESR1', 'ESR2']",0.6909090909090909
 48,ranolazine,lidoflazine,['CYP2D6'],0.5254237288135594
-49,imatinib,nilotinib,"['FLT3', 'KIT', 'ABL1', 'PDGFRB', 'PDGFRA', 'DDR2', 'LYN', 'ABCG2', 'DDR1', 'BCR']",0.5844155844155844
-50,tamoxifen,toremifene,"['ESR1', 'ESR2', 'TGFB1', 'CYP3A4', 'PGR']",0.775
-51,digoxin,digitoxin,"['STAT3', 'ATP1B1', 'ATP1A2', 'ATP1B3', 'ATP1A1', 'ATP1B2', 'AR', 'ATAD5', 'NR3C1', 'ATP1A4', 'FXYD2', 'NFE2L2', 'IDH1', 'GMNN', 'ATP1A3']",0.8285714285714286
+49,imatinib,nilotinib,"['DDR1', 'ABL1', 'KIT', 'PDGFRA', 'DDR2', 'LYN', 'FLT3', 'PDGFRB', 'BCR', 'ABCG2']",0.5844155844155844
+50,tamoxifen,toremifene,"['ESR1', 'CYP3A4', 'PGR', 'TGFB1', 'ESR2']",0.775
+51,digoxin,digitoxin,"['NFE2L2', 'ATP1B2', 'FXYD2', 'ATP1A3', 'ATP1A1', 'AR', 'ATAD5', 'NR3C1', 'GMNN', 'IDH1', 'ATP1B1', 'ATP1B3', 'ATP1A4', 'ATP1A2', 'STAT3']",0.8285714285714286
 52,triprolidine,acrivastine,['HRH1'],0.673469387755102
-53,phenytoin,phenobarbital,"['UGT2B15', 'UGT1A9', 'CYP2D6', 'CYP2B6', 'MTHFR', 'CYP1A2', 'NR1I2', 'UGT1A6', 'CYP3A4', 'CYP2C9', 'CYP1A1', 'GABRA1', 'CYP2C19', 'SCN2A']",0.5333333333333333
+53,phenytoin,phenobarbital,"['UGT1A6', 'SCN2A', 'CYP1A2', 'NR1I2', 'CYP2B6', 'UGT1A9', 'GABRA1', 'CYP3A4', 'CYP2C9', 'MTHFR', 'UGT2B15', 'CYP1A1', 'CYP2D6', 'CYP2C19']",0.5333333333333333
 54,ranitidine,nizatidine,['HRH2'],0.6226415094339622
-55,pioglitazone,rosiglitazone,"['TRPM3', 'SLC2A1', 'NR1I2', 'PPARG', 'CYP2C9']",0.5818181818181818
-56,stavudine,zidovudine,"['CYP2D6', 'CYP2B6', 'CYP1A2', 'CXCL10', 'CYP3A4', 'CYP2C9', 'DTYMK', 'CYP2C19']",0.5094339622641509
-57,vinblastine,vincristine,"['TUBB3', 'TUBB4A', 'ABCB4', 'TUBB8', 'TUBB6', 'TUBB', 'TUBA3C', 'TUBA1C', 'GMNN', 'ABCB1', 'TUBA3E', 'NR1I2', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'TUBB4B', 'TUBA3D', 'TUBB2B', 'TUBA4A', 'TUBB1']",0.7934782608695652
-58,vinblastine,vinorelbine,"['TUBA3D', 'TUBB3', 'TUBB2B', 'TUBA3C', 'TUBA1C', 'TUBA3E', 'TUBA4A', 'TUBB4A', 'TUBA1A', 'TUBB1', 'TUBB2A', 'TUBA1B', 'TUBB8', 'TUBB6', 'TUBB4B', 'TUBB']",0.7888888888888889
+55,pioglitazone,rosiglitazone,"['NR1I2', 'SLC2A1', 'PPARG', 'CYP2C9', 'TRPM3']",0.5818181818181818
+56,stavudine,zidovudine,"['CXCL10', 'CYP1A2', 'CYP2B6', 'CYP3A4', 'CYP2C9', 'DTYMK', 'CYP2D6', 'CYP2C19']",0.5094339622641509
+57,vinblastine,vincristine,"['TUBB8', 'GMNN', 'ABCB4', 'TUBA1C', 'TUBB2B', 'TUBA3E', 'TUBB3', 'TUBA3D', 'ABCB1', 'TUBA1A', 'TUBB1', 'TUBB4B', 'TUBA1B', 'TUBB', 'TUBA3C', 'TUBA4A', 'TUBB6', 'NR1I2', 'TUBB4A', 'TUBB2A']",0.7934782608695652
+58,vinblastine,vinorelbine,"['TUBB3', 'TUBB6', 'TUBB8', 'TUBA1A', 'TUBB1', 'TUBB4B', 'TUBA1B', 'TUBB4A', 'TUBB2A', 'TUBB', 'TUBA1C', 'TUBA3D', 'TUBA3C', 'TUBB2B', 'TUBA4A', 'TUBA3E']",0.7888888888888889
 59,colchicine,colchiceine,['GMNN'],0.8913043478260869
-60,clonazepam,nitrazepam,"['GABRR1', 'GABRA6', 'GABRA2', 'GABRR2', 'GABRD', 'GABRE', 'GABRG3', 'GABRA5', 'GABRQ', 'GABRB1', 'GABRR3', 'GABRA4', 'GABRP', 'GABRB3', 'GABRG1', 'GABRG2', 'GABRA3', 'GABRA1', 'GABRB2']",0.7391304347826086
-61,bromocriptine,ergotamine,"['HTR6', 'HTR2B', 'HTR2A', 'HTR1D', 'HTR2C', 'HTR1B']",0.6333333333333333
-62,doxycycline,oxytetracycline,"['FEN1', 'SOD1', 'EHMT2']",0.711864406779661
-63,amoxicillin,ampicillin,"['HLA-A', 'POLH', 'NR1I2', 'POLK']",0.8723404255319149
-64,regorafenib,sorafenib,"['PIK3CA', 'KIT', 'FLT1', 'ABL1', 'YES1', 'KRAS', 'FLT4', 'FGFR1', 'RAF1', 'MAPK11', 'EPHA2', 'DDR2', 'RET', 'PDGFRB', 'NTRK1', 'EGFR', 'PDGFRA', 'VEGFA', 'BRAF', 'KDR', 'NRAS', 'ARAF']",0.8245614035087719
-65,cytarabine,gemcitabine,"['RRM2B', 'NT5C2', 'DCK', 'CDA', 'RRM1', 'RRM2', 'NT5C3A', 'TP53']",0.6444444444444445
-66,alprazolam,triazolam,"['GABRR1', 'GABRA6', 'GABRA2', 'GABRR2', 'BRD2', 'GABRD', 'PBRM1', 'BRD3', 'TSPO', 'GABRE', 'BRDT', 'CREBBP', 'GABRG3', 'GABRA5', 'GABRQ', 'GABRB1', 'GABRR3', 'GABRA4', 'GABRP', 'GABRB3', 'CYP3A5', 'GABRG1', 'GABRG2', 'BRD4', 'GABRA3', 'CYP3A4', 'GABRA1', 'GABRB2']",0.7674418604651163
-67,sirolimus,everolimus,"['TSC1', 'PIK3CA', 'AKT1', 'RB1', 'HRAS', 'MTOR', 'ABCB1', 'STK11', 'EGFR', 'AR', 'KRAS', 'FLCN', 'CYP3A5', 'ERBB2', 'FKBP1A']",0.9072164948453608
-68,tetracycline,oxytetracycline,['SOD1'],0.711864406779661
-69,difluprednate,fluocinonide,"['AR', 'NR3C1']",0.6764705882352942
-70,nitrendipine,nicardipine,['ABCB1'],0.7090909090909091
-71,nitrendipine,nimodipine,"['CACNA1F', 'CACNA1D', 'CACNG1', 'ABCB1']",0.7708333333333334
-72,levofloxacin,ofloxacin,['GSR'],0.8461538461538461
-73,warfarin,acenocoumarol,"['APOE', 'VKORC1', 'ABCB1']",0.8181818181818182
-74,topotecan,irinotecan,"['PIK3CA', 'AKT1', 'TYMS', 'TOP1MT', 'ABCB1', 'ATRX', 'TOP1', 'ABCG2', 'TP53']",0.6024096385542169
-75,ritonavir,cobicistat,"['CYP3A5', 'CYP3A4']",0.6705882352941176
-76,droperidol,benperidol,"['DRD4', 'CYP2D6', 'DRD2']",0.7090909090909091
-77,betamethasone,clobetasol,"['ANXA1', 'AR', 'NR3C1']",0.8727272727272727
-78,lenalidomide,pomalidomide,"['RBX1', 'CUL4A', 'DDB1', 'CRBN']",0.6170212765957447
-79,lamivudine,emtricitabine,"['ABCC3', 'ABCC2', 'ABCC1']",0.6458333333333334
-80,cabazitaxel,docetaxel,"['TUBA3D', 'TUBB2B', 'TUBB3', 'TUBB8', 'TUB', 'TUBA1C', 'TUBA3E', 'TUBA4A', 'IGF2', 'TUBB1', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'TUBB6', 'TUBB4B', 'TUBB']",0.8222222222222222
-81,desogestrel,etonogestrel,"['ESR1', 'PGR', 'AR']",0.75
-82,ampicillin,amoxicillin,"['HLA-A', 'POLH', 'NR1I2', 'POLK']",0.8723404255319149
-83,roxithromycin,clarithromycin,"['F2RL1', 'CYP3A4', 'XDH']",0.725
-84,roxithromycin,erythromycin,"['F2RL1', 'MLNR', 'CYP3A4', 'XDH']",0.7625
-85,perindopril,ramipril,['ACE'],0.7291666666666666
-86,ribociclib,palbociclib,"['SMARCA4', 'PIK3CA', 'RB1', 'CDK4', 'ESR1', 'CCND1', 'CCND3', 'ESR2', 'BRAF', 'NRAS', 'CDK6', 'CDKN2A', 'PGR', 'ERBB2']",0.6666666666666666
-87,epirubicin,daunorubicin,"['SLCO1B1', 'TOP2B', 'CBR3', 'ABCB1', 'TOP2A', 'NOS3', 'GSTP1', 'TP53']",0.7794117647058824
-88,irbesartan,losartan,"['AGTR1', 'CYP3A4']",0.5666666666666667
-89,sulfisoxazole,sulfamethoxazole,['G6PD'],0.5789473684210527
-90,sulfisoxazole,sulfamethazine,['NR1I2'],0.5128205128205128
-91,ketoconazole,terconazole,['HSP90AA1'],0.6428571428571429
-92,chloroquine,hydroxychloroquine,"['TLR9', 'CYP2D6', 'TLR7', 'G6PD']",0.8723404255319149
-93,oxcarbazepine,eslicarbazepine,"['SCN7A', 'SCN9A', 'SCN4A', 'SCN3A', 'SCN8A', 'SCN11A', 'SCN10A', 'SCN5A', 'SCN1A', 'SCN2A']",0.5641025641025641
-94,fluconazole,voriconazole,"['CYP2D6', 'CYP2C19']",0.62
-95,finasteride,dutasteride,"['AR', 'SRD5A1', 'SRD5A2']",0.631578947368421
-96,gefitinib,dacomitinib,"['PTEN', 'EGFR', 'ERBB4', 'ERBB2', 'ERBB3']",0.6027397260273972
-97,levobupivacaine,ropivacaine,['SCN10A'],0.875
-98,afatinib,dacomitinib,"['ERBB3', 'ERBB4', 'EGFR', 'ERBB2']",0.6933333333333334
-99,ciprofloxacin,norfloxacin,['G6PD'],0.7058823529411765
-100,daunorubicin,doxorubicin,"['TOP2B', 'ABCC1', 'CBR3', 'LINC00251', 'G6PD', 'CYP1A1', 'GSTP1', 'SETD4', 'SLCO1B1', 'GATA3', 'RUNX1', 'DOK5', 'SLC28A3', 'UGT1A6', 'TOP1', 'NOS3', 'POLK', 'BMP7', 'ABCG2', 'TP53', 'RPSA', 'CBR1', 'ABCB1', 'AKR7A2', 'AKR1C3', 'APEX1', 'TOP2A', 'RARG']",0.8615384615384616
-101,daunorubicin,idarubicin,"['HTT', 'SLCO1B1', 'FLT3', 'THRB', 'TOP2B', 'MAPT', 'DCK', 'ABCB1', 'TOP2A', 'RECQL', 'USP1', 'APEX1', 'POLK', 'EHMT2', 'BLM']",0.8524590163934426
-102,temsirolimus,everolimus,"['PIK3CA', 'PTEN', 'AKT1', 'MTOR', 'ABCB1', 'VHL', 'EGFR', 'BRAF', 'KRAS', 'ERBB2', 'NF2', 'FKBP1A']",0.8921568627450981
-103,aripiprazole,aripiprazole lauroxil,"['HTR2A', 'DRD2', 'HTR1A']",0.6086956521739131
-104,leuprolide,buserelin,['GNRHR'],0.94
-105,meloxicam,piroxicam,"['PTGS2', 'CYP2C9', 'PTGS1']",0.62
-106,ganciclovir,valganciclovir,['ABCC4'],0.7450980392156863
-107,irinotecan,topotecan,"['PIK3CA', 'AKT1', 'TYMS', 'TOP1MT', 'ABCB1', 'ATRX', 'TOP1', 'ABCG2', 'TP53']",0.6024096385542169
-108,oxytetracycline,doxycycline,"['FEN1', 'SOD1', 'EHMT2']",0.711864406779661
-109,aprotinin,ecallantide,['KLK3'],0.6141304347826086
-110,fulvestrant,estradiol,"['ESR1', 'GPER1', 'ESR2', 'CYP1A2', 'ESRRA']",0.5172413793103449
-111,omeprazole,esomeprazole,"['CYP2D6', 'CYP1A2', 'CYP3A5', 'CYP3A4', 'CYP2C9', 'ATP4A', 'CYP2C19']",0.851063829787234
-112,doxazosin,terazosin,"['ADRA1B', 'ADRA1A', 'ADRA1D']",0.6935483870967742
-113,buserelin,goserelin,['GNRHR'],0.95
-114,piroxicam,tenoxicam,"['PTGS1', 'KDM4A', 'PTGS2', 'BAZ2B', 'CYP2C9']",0.7083333333333334
-115,cyproterone acetate,megestrol acetate,"['NFE2L2', 'AR']",0.5573770491803278
-116,amodiaquine,chloroquine,['G6PD'],0.5849056603773585
-117,daclatasvir,elbasvir,['IFNL3'],0.6486486486486487
-118,dapagliflozin,empagliflozin,"['SLC5A4', 'SLC5A2', 'SLC5A1']",0.7450980392156863
-119,goserelin,buserelin,['GNRHR'],0.95
-120,pantoprazole,omeprazole,"['MAPT', 'VDR', 'ABCB1', 'CYP3A5', 'ATP4A', 'CYP2C19']",0.5666666666666667
-121,clopidogrel,ticlopidine,"['CYP2D6', 'CYP2B6', 'P2RY12', 'CYP1A2', 'CYP3A4', 'CYP2C9', 'CYP2C19']",0.5208333333333334
-122,amiodarone,benziodarone,['GMNN'],0.543859649122807
-123,ibrutinib,zanubrutinib,['BTK'],0.5352112676056338
-124,ticlopidine,clopidogrel,"['CYP2D6', 'CYP2B6', 'P2RY12', 'CYP1A2', 'CYP3A4', 'CYP2C9', 'CYP2C19']",0.5208333333333334
-125,leflunomide,teriflunomide,['DHODH'],0.5111111111111111
-126,nilotinib,imatinib,"['FLT3', 'KIT', 'ABL1', 'PDGFRB', 'PDGFRA', 'DDR2', 'LYN', 'ABCG2', 'DDR1', 'BCR']",0.5844155844155844
-127,triptorelin,cetrorelix,['GNRHR'],0.5555555555555556
-128,triptorelin,gonadorelin,['GNRHR'],0.9393939393939394
-129,fludarabine,cladribine,"['XIAP', 'DCK', 'ADA', 'RRM1', 'RRM2', 'NFE2L2']",0.5918367346938775
-130,vincristine,vinblastine,"['TUBB3', 'TUBB4A', 'ABCB4', 'TUBB8', 'TUBB6', 'TUBB', 'TUBA3C', 'TUBA1C', 'GMNN', 'ABCB1', 'TUBA3E', 'NR1I2', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'TUBB4B', 'TUBA3D', 'TUBB2B', 'TUBA4A', 'TUBB1']",0.7934782608695652
-131,amitriptyline,nortriptyline,"['CYP2D6', 'SLC6A2', 'DRD1', 'SLC6A4', 'ABCB1']",0.6
-132,amitriptyline,cyclobenzaprine,"['HTR2A', 'CYP2D6', 'DRD1']",0.6363636363636364
-133,docetaxel,cabazitaxel,"['TUBA3D', 'TUBB2B', 'TUBB3', 'TUBB8', 'TUB', 'TUBA1C', 'TUBA3E', 'TUBA4A', 'IGF2', 'TUBB1', 'TUBB2A', 'TUBA1B', 'TUBA1A', 'TUBB6', 'TUBB4B', 'TUBB']",0.8222222222222222
-134,rosiglitazone,pioglitazone,"['TRPM3', 'SLC2A1', 'NR1I2', 'PPARG', 'CYP2C9']",0.5818181818181818
-135,somatostatin,octreotide,"['SSTR3', 'SSTR1', 'SSTR2', 'SSTR5']",0.6666666666666666
-136,enalapril,captopril,"['DPP4', 'ACE']",0.5098039215686274
-137,enalapril,enalaprilat,['ACE'],0.875
-138,atracurium,atracurium besylate,['CHRNA1'],0.8448275862068966
-139,lansoprazole,dexlansoprazole,"['ATP4A', 'CYP2C19', 'ATP4B']",0.84
-140,terbutaline,clenbuterol,['ADRB2'],0.6666666666666666
-141,pindolol,propranolol,"['ADRB1', 'ADRB2']",0.6904761904761905
-142,pindolol,oxprenolol,"['ADRB1', 'ADRB2']",0.5652173913043478
+60,triazolam,alprazolam,"['BRD4', 'GABRG2', 'PBRM1', 'BRD2', 'GABRB3', 'CYP3A5', 'TSPO', 'GABRB1', 'GABRA3', 'CREBBP', 'GABRP', 'GABRD', 'GABRR1', 'GABRR3', 'GABRB2', 'GABRA1', 'CYP3A4', 'GABRA5', 'GABRA4', 'GABRE', 'BRDT', 'BRD3', 'GABRG1', 'GABRA2', 'GABRA6', 'GABRG3', 'GABRR2', 'GABRQ']",0.7674418604651163
+61,clonazepam,nitrazepam,"['GABRG2', 'GABRB3', 'GABRB1', 'GABRA3', 'GABRP', 'GABRD', 'GABRR1', 'GABRB2', 'GABRR3', 'GABRA1', 'GABRA5', 'GABRA4', 'GABRE', 'GABRG1', 'GABRA2', 'GABRA6', 'GABRG3', 'GABRR2', 'GABRQ']",0.7391304347826086
+62,bromocriptine,ergotamine,"['HTR2A', 'HTR1D', 'HTR2B', 'HTR2C', 'HTR1B', 'HTR6']",0.6333333333333333
+63,doxycycline,oxytetracycline,"['FEN1', 'EHMT2', 'SOD1']",0.711864406779661
+64,amoxicillin,ampicillin,"['HLA-A', 'NR1I2', 'POLK', 'POLH']",0.8723404255319149
+65,regorafenib,sorafenib,"['KDR', 'ABL1', 'FLT1', 'MAPK11', 'PIK3CA', 'PDGFRA', 'NRAS', 'FGFR1', 'DDR2', 'NTRK1', 'FLT4', 'YES1', 'ARAF', 'KIT', 'EPHA2', 'EGFR', 'VEGFA', 'PDGFRB', 'RET', 'RAF1', 'KRAS', 'BRAF']",0.8245614035087719
+66,cytarabine,gemcitabine,"['TP53', 'CDA', 'DCK', 'RRM2B', 'NT5C3A', 'RRM2', 'RRM1', 'NT5C2']",0.6444444444444445
+67,alprazolam,triazolam,"['BRD4', 'GABRG2', 'PBRM1', 'BRD2', 'GABRB3', 'CYP3A5', 'TSPO', 'GABRB1', 'GABRA3', 'CREBBP', 'GABRP', 'GABRD', 'GABRR1', 'GABRB2', 'GABRR3', 'GABRA1', 'CYP3A4', 'GABRA5', 'GABRA4', 'GABRE', 'BRDT', 'BRD3', 'GABRG1', 'GABRA2', 'GABRA6', 'GABRG3', 'GABRR2', 'GABRQ']",0.7674418604651163
+68,sirolimus,everolimus,"['HRAS', 'AKT1', 'MTOR', 'AR', 'TSC1', 'PIK3CA', 'RB1', 'EGFR', 'KRAS', 'FKBP1A', 'FLCN', 'STK11', 'ERBB2', 'ABCB1', 'CYP3A5']",0.9072164948453608
+69,tetracycline,oxytetracycline,['SOD1'],0.711864406779661
+70,difluprednate,fluocinonide,"['NR3C1', 'AR']",0.6764705882352942
+71,nitrendipine,nicardipine,['ABCB1'],0.7090909090909091
+72,nitrendipine,nimodipine,"['CACNA1D', 'CACNG1', 'CACNA1F', 'ABCB1']",0.7708333333333334
+73,levofloxacin,ofloxacin,['GSR'],0.8461538461538461
+74,warfarin,acenocoumarol,"['APOE', 'ABCB1', 'VKORC1']",0.8181818181818182
+75,topotecan,irinotecan,"['TP53', 'TOP1MT', 'AKT1', 'PIK3CA', 'ATRX', 'TOP1', 'TYMS', 'ABCB1', 'ABCG2']",0.6024096385542169
+76,ritonavir,cobicistat,"['CYP3A4', 'CYP3A5']",0.6705882352941176
+77,droperidol,benperidol,"['DRD2', 'CYP2D6', 'DRD4']",0.7090909090909091
+78,betamethasone,clobetasol,"['ANXA1', 'NR3C1', 'AR']",0.8727272727272727
+79,lenalidomide,pomalidomide,"['CRBN', 'CUL4A', 'DDB1', 'RBX1']",0.6170212765957447
+80,lamivudine,emtricitabine,"['ABCC3', 'ABCC2', 'ABCC1']",0.6458333333333334
+81,cabazitaxel,docetaxel,"['TUBB3', 'TUB', 'TUBB6', 'IGF2', 'TUBB8', 'TUBB1', 'TUBA1A', 'TUBB4B', 'TUBA1B', 'TUBB', 'TUBA1C', 'TUBA3D', 'TUBB2B', 'TUBA4A', 'TUBB2A', 'TUBA3E']",0.8222222222222222
+82,desogestrel,etonogestrel,"['PGR', 'ESR1', 'AR']",0.75
+83,ampicillin,amoxicillin,"['HLA-A', 'NR1I2', 'POLK', 'POLH']",0.8723404255319149
+84,roxithromycin,clarithromycin,"['CYP3A4', 'XDH', 'F2RL1']",0.725
+85,roxithromycin,erythromycin,"['CYP3A4', 'XDH', 'F2RL1', 'MLNR']",0.7625
+86,perindopril,ramipril,['ACE'],0.7291666666666666
+87,ribociclib,palbociclib,"['SMARCA4', 'CCND1', 'NRAS', 'CCND3', 'ESR2', 'ESR1', 'CDK6', 'RB1', 'PIK3CA', 'CDK4', 'CDKN2A', 'ERBB2', 'PGR', 'BRAF']",0.6666666666666666
+88,epirubicin,daunorubicin,"['TP53', 'CBR3', 'TOP2A', 'TOP2B', 'ABCB1', 'NOS3', 'GSTP1', 'SLCO1B1']",0.7794117647058824
+89,irbesartan,losartan,"['CYP3A4', 'AGTR1']",0.5666666666666667
+90,sulfisoxazole,sulfamethoxazole,['G6PD'],0.5789473684210527
+91,sulfisoxazole,sulfamethazine,['NR1I2'],0.5128205128205128
+92,ketoconazole,terconazole,['HSP90AA1'],0.6428571428571429
+93,chloroquine,hydroxychloroquine,"['CYP2D6', 'G6PD', 'TLR9', 'TLR7']",0.8723404255319149
+94,oxcarbazepine,eslicarbazepine,"['SCN4A', 'SCN2A', 'SCN11A', 'SCN3A', 'SCN9A', 'SCN7A', 'SCN5A', 'SCN10A', 'SCN1A', 'SCN8A']",0.5641025641025641
+95,ribavirin,azacitidine,"['TP53', 'RORC', 'ALDH1A1']",0.5333333333333333
+96,fluconazole,voriconazole,"['CYP2D6', 'CYP2C19']",0.62
+97,finasteride,dutasteride,"['AR', 'SRD5A2', 'SRD5A1']",0.631578947368421
+98,gefitinib,dacomitinib,"['PTEN', 'EGFR', 'ERBB3', 'ERBB4', 'ERBB2']",0.6027397260273972
+99,levobupivacaine,ropivacaine,['SCN10A'],0.875
+100,afatinib,dacomitinib,"['ERBB3', 'ERBB2', 'ERBB4', 'EGFR']",0.6933333333333334
+101,ciprofloxacin,norfloxacin,['G6PD'],0.7058823529411765
+102,daunorubicin,doxorubicin,"['CBR3', 'TOP2A', 'G6PD', 'GATA3', 'RARG', 'TOP1', 'GSTP1', 'TP53', 'BMP7', 'UGT1A6', 'SETD4', 'POLK', 'AKR7A2', 'ABCB1', 'CBR1', 'RUNX1', 'NOS3', 'SLC28A3', 'DOK5', 'ABCC1', 'AKR1C3', 'RPSA', 'APEX1', 'TOP2B', 'CYP1A1', 'ABCG2', 'LINC00251', 'SLCO1B1']",0.8615384615384616
+103,daunorubicin,idarubicin,"['DCK', 'RECQL', 'MAPT', 'TOP2A', 'USP1', 'POLK', 'EHMT2', 'THRB', 'BLM', 'TOP2B', 'APEX1', 'FLT3', 'ABCB1', 'HTT', 'SLCO1B1']",0.8524590163934426
+104,temsirolimus,everolimus,"['NF2', 'AKT1', 'VHL', 'PTEN', 'MTOR', 'PIK3CA', 'EGFR', 'KRAS', 'FKBP1A', 'ERBB2', 'ABCB1', 'BRAF']",0.8921568627450981
+105,aripiprazole,aripiprazole lauroxil,"['DRD2', 'HTR1A', 'HTR2A']",0.6086956521739131
+106,leuprolide,buserelin,['GNRHR'],0.94
+107,meloxicam,piroxicam,"['PTGS2', 'CYP2C9', 'PTGS1']",0.62
+108,ganciclovir,valganciclovir,['ABCC4'],0.7450980392156863
+109,irinotecan,topotecan,"['TP53', 'TOP1MT', 'AKT1', 'PIK3CA', 'ATRX', 'TOP1', 'TYMS', 'ABCB1', 'ABCG2']",0.6024096385542169
+110,oxytetracycline,doxycycline,"['FEN1', 'EHMT2', 'SOD1']",0.711864406779661
+111,aprotinin,ecallantide,['KLK3'],0.6141304347826086
+112,fulvestrant,estradiol,"['GPER1', 'ESRRA', 'CYP1A2', 'ESR1', 'ESR2']",0.5172413793103449
+113,omeprazole,esomeprazole,"['CYP1A2', 'CYP3A4', 'CYP2C9', 'CYP2D6', 'CYP2C19', 'CYP3A5', 'ATP4A']",0.851063829787234
+114,doxazosin,terazosin,"['ADRA1A', 'ADRA1B', 'ADRA1D']",0.6935483870967742
+115,buserelin,goserelin,['GNRHR'],0.95
+116,piroxicam,tenoxicam,"['KDM4A', 'PTGS2', 'CYP2C9', 'BAZ2B', 'PTGS1']",0.7083333333333334
+117,cyproterone acetate,megestrol acetate,"['AR', 'NFE2L2']",0.5573770491803278
+118,amodiaquine,chloroquine,['G6PD'],0.5849056603773585
+119,daclatasvir,elbasvir,['IFNL3'],0.6486486486486487
+120,dapagliflozin,empagliflozin,"['SLC5A1', 'SLC5A2', 'SLC5A4']",0.7450980392156863
+121,goserelin,buserelin,['GNRHR'],0.95
+122,pantoprazole,omeprazole,"['MAPT', 'VDR', 'ABCB1', 'CYP2C19', 'CYP3A5', 'ATP4A']",0.5666666666666667
+123,clopidogrel,ticlopidine,"['P2RY12', 'CYP1A2', 'CYP2B6', 'CYP3A4', 'CYP2C9', 'CYP2D6', 'CYP2C19']",0.5208333333333334
+124,amiodarone,benziodarone,['GMNN'],0.543859649122807
+125,ibrutinib,zanubrutinib,['BTK'],0.5352112676056338
+126,ticlopidine,clopidogrel,"['P2RY12', 'CYP1A2', 'CYP2B6', 'CYP3A4', 'CYP2C9', 'CYP2D6', 'CYP2C19']",0.5208333333333334
+127,leflunomide,teriflunomide,['DHODH'],0.5111111111111111
+128,nilotinib,imatinib,"['DDR1', 'ABL1', 'KIT', 'PDGFRA', 'DDR2', 'LYN', 'FLT3', 'PDGFRB', 'BCR', 'ABCG2']",0.5844155844155844
+129,triptorelin,cetrorelix,['GNRHR'],0.5555555555555556
+130,triptorelin,gonadorelin,['GNRHR'],0.9393939393939394
+131,fludarabine,cladribine,"['DCK', 'NFE2L2', 'XIAP', 'RRM2', 'ADA', 'RRM1']",0.5918367346938775
+132,vincristine,vinblastine,"['TUBB8', 'GMNN', 'ABCB4', 'TUBA1C', 'TUBB2B', 'TUBA3E', 'TUBB3', 'TUBA3D', 'ABCB1', 'TUBA1A', 'TUBB1', 'TUBB4B', 'TUBA1B', 'TUBB', 'TUBA3C', 'TUBA4A', 'TUBB6', 'NR1I2', 'TUBB4A', 'TUBB2A']",0.7934782608695652
+133,amitriptyline,nortriptyline,"['DRD1', 'ABCB1', 'CYP2D6', 'SLC6A4', 'SLC6A2']",0.6
+134,amitriptyline,cyclobenzaprine,"['DRD1', 'CYP2D6', 'HTR2A']",0.6363636363636364
+135,docetaxel,cabazitaxel,"['TUBB3', 'TUB', 'TUBB6', 'IGF2', 'TUBB8', 'TUBB1', 'TUBA1A', 'TUBB4B', 'TUBA1B', 'TUBB', 'TUBA1C', 'TUBA3D', 'TUBB2B', 'TUBA4A', 'TUBB2A', 'TUBA3E']",0.8222222222222222
+136,rosiglitazone,pioglitazone,"['NR1I2', 'SLC2A1', 'PPARG', 'CYP2C9', 'TRPM3']",0.5818181818181818
+137,somatostatin,octreotide,"['SSTR2', 'SSTR5', 'SSTR3', 'SSTR1']",0.6666666666666666
+138,enalapril,captopril,"['ACE', 'DPP4']",0.5098039215686274
+139,enalapril,enalaprilat,['ACE'],0.875
+140,atracurium,atracurium besylate,['CHRNA1'],0.8448275862068966
+141,lansoprazole,dexlansoprazole,"['CYP2C19', 'ATP4B', 'ATP4A']",0.84
+142,terbutaline,clenbuterol,['ADRB2'],0.6666666666666666
+143,pindolol,propranolol,"['ADRB2', 'ADRB1']",0.6904761904761905
+144,pindolol,oxprenolol,"['ADRB2', 'ADRB1']",0.5652173913043478
